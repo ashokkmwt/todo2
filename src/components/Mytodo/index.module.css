@@ -1,0 +1,72 @@
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.taskAddInput{
+    width: 50%;
+    height: 70%;
+    border: none;
+    padding-left: 15px;
+    background-color: antiquewhite;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.taskAddButton,
+.updateButton{
+    width: 70px;
+    height: 60%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.updateButton{
+    height: 100%;
+}
+
+main{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0 10px;
+}
+
+.outputTodo{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    position: relative;
+    border: .5px solid black;
+    border-radius: 10px;
+}
+.outputTodo input {
+    width: 90%;
+    height: 50%;
+    padding-left: 15px;
+    border: none;
+    margin-left: 10px;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.buttonBar{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
